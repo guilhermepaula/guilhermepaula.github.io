@@ -1,0 +1,9 @@
+# Eclipse Configurations
+.metadata
+.project
+bin/
+tmp/
+*.tmp
+*.bak
+.settings/
+.target

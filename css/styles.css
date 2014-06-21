@@ -1,0 +1,49 @@
+html,body {
+	height: 100%;
+	font-family: helvetica, arial, serif;
+	color: #EFEFEF;
+}
+
+.container-full {
+	margin: 0 auto;
+	width: 100%;
+	min-height: 100%;
+	background-color: #222222;
+	color: #EEE;
+	overflow: hidden;
+}
+
+.container-full a {
+	color: #EFEFEF;
+	text-decoration: none;
+}
+
+.v-center {
+	margin-top: 7%;
+}
+
+h1 {
+	letter-spacing: 3px;
+	font-size: 40px;
+}
+
+[class~="fa"] {
+	letter-spacing: 20px;
+	font-size: 50px;
+}
+
+[title~="facebook"]:hover {
+	color: #3B5998;
+}
+
+[title~="github"]:hover {
+	color: #000000;
+}
+
+[title~="twitter"]:hover {
+	color: #30D8F0;
+}
+
+[title~="linkedin"]:hover {
+	color: #247BA7;
+}
