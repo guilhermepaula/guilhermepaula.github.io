@@ -1,35 +1,25 @@
-html,body {
-	height: 100%;
-	font-family: helvetica, arial, serif;
-	color: #EFEFEF;
+body {
+	background-color: #232F49;
 }
 
-.container-full {
-	margin: 0 auto;
-	width: 100%;
-	min-height: 100%;
-	background-color: #222222;
-	color: #EEE;
-	overflow: hidden;
+a {
+	margin-left: 30px;
+	color: #FFF;
 }
 
-.container-full a {
-	color: #EFEFEF;
-	text-decoration: none;
-}
-
-.v-center {
-	margin-top: 5%;
-}
-
-h1 {
-	letter-spacing: 4px;
-	font-size: 35pt;
+.center {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 [class~="fa"] {
-	letter-spacing: 20px;
-	font-size: 40pt;
+	font-size: 70pt;
 }
 
 [title~="facebook"]:hover {
